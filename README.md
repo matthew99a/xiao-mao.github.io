@@ -1,3 +1,3 @@
 # xiao-mao.github.io
 
-My homepage
+Git repository for my homepage at xiao-mao.github.io.
