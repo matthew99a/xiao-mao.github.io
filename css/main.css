@@ -1,43 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
 body {
-    margin: 60px auto;
-    width: 70%;
+	width:60%;
+	margin:0 auto;
+	font-size: 1.1rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+hr {
+	height: 1px;
+	border-width: 0;
+	background-color: #F0F0F0;
+	width:100%;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+div.about {
+	width:70%;
+	float: left;
+	/*font-family:"Cambria";*/
+	font-size: 1.2rem;
 }
-a {
-    text-decoration: none;
-    color: #999;
+
+div.picture {
+	height:100%;
+	margin-left: 75%;
 }
-a:hover {
-    text-decoration: underline;
+
+div.pub_list {
+	float: left;
 }
+
+div.title {
+	font-weight: bold;
+}
+
+div.coauthor {
+}
+
+div.conference {
+
+}
+
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+	font-family: "Lato", sans-serif;
+	text-shadow: none;
+	font-weight: 400;
+	font-size: 3rem;
+	line-height: 1.3em;
+	color: #404040;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
+a {
+	text-decoration: none;
 }
